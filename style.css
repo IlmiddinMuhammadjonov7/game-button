@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 600px;
+    margin: 100px auto;
+    grid-template-rows: 100px 100px;
+    gap: 40px;
+}
+
+button{
+    font-size: 30px;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
